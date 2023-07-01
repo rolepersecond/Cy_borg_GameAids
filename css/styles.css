@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+}
+
+/*USO DE FONTS
+font-family: 'JetBrains Mono', monospace;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Syne', sans-serif;
+*/
+
+h2 {
+    font-family: 'Syne', sans-serif;
+    color: #f9f808;
+}
+
+h4 {
+    font-family: 'Orbitron', sans-serif;
+    color: #f9f808;
+    font-size: 15pt;
+}
+
+p {
+    font-family: 'JetBrains Mono', monospace;
+    color: #ffffff;
+    font-size: 12pt;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #0000fe;
+    padding: 10px;
+    text-align: center;
+}
+
+.mainlogo {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    font-size: 13pt;
+}
+
+.line {
+    border: 10px solid #0000fe;
+    border-radius: 5px;
+    margin: 25px;
+}
+
+.reglas {
+    padding: 0px 50px 0px 50px;
+}
+
+.parrafos {
+    margin: 15px 0 15px 0;
+    padding: 0 10px 0 10px;
+}
+
+.italic {}
+
+/*AQUI COMIENZA CODIGO PARA MISION*/
+
+.contenedor {
+    display: grid;
+    grid-template-areas:
+        'leelo textbox';
+    grid-gap: 0;
+}
+
+.contenedor_leelo {
+    grid-area: leelo;
+}
+
+.contenedor_text {
+    grid-area: textbox;
+}
+
+.img_leelo {
+    height: 70%;
+    grid-area: leelo;
+}
+
+.titulo_mision {
+    font-family: 'Syne', sans-serif;
+    color: #f9f808;
+    grid-area: title;
+    padding: 0;
+    margin: 0;
+}
+
+.sub_title {
+    grid-area: sub_title;
+    font-family: 'Orbitron', sans-serif;
+    color: #f9f808;
+    font-size: 15pt;
+}
+
+.line_mision {
+    border: 10px solid #0000fe;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.titulos {
+    margin: 20px;
+}
+
+.text_mision {
+    margin: 20px;
+}
+
+.infos {
+    margin: 20px;
+}
+
+.img_city {
+    display: flex;
+    width: 90%;
+    justify-self: center;
+    align-self: center;
+    margin: 20px;
+}

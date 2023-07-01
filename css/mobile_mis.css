@@ -1,0 +1,9 @@
+.img_leelo {
+    display: inline-flex;
+    height: 40%;
+/*    grid-area: leelo;*/
+}
+
+.contenedor_leelo {
+    background-color: #0000fe;
+}
